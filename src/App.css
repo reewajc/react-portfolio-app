@@ -1,0 +1,179 @@
+.App {
+
+  background-color: gray;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: bold;
+
+  color: white;
+  text-indent: 2cm;
+  
+
+}
+
+.card{
+  cursor: pointer;
+}
+
+.jokes-setup {
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+  height: 100vh;
+}
+
+.link-items{
+  color: white;
+  text-decoration: none;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+body{
+  background-color: gray;
+  padding-top: 10px;
+  }
+  #about{
+      font-family: 'Courier New', Courier, monospace;
+      font-size: larger;
+      font-weight: bold;
+   
+      color: white;
+      text-indent: 2cm;
+  }
+  
+  #background{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    word-wrap: break-word;
+    color: white;
+    text-indent: 2cm;
+  }
+  
+  
+  h1#ram{
+      color: teal;
+      font-size: 60px;
+      font-weight: bold;
+     text-align: center;
+      position: relative;
+      animation: animateName 5s infinite;
+      animation-timing-function: linear;
+    
+  }
+  
+  @keyframes animateName{
+   
+    0%{
+  color: blueviolet;
+  
+    }
+  
+    25%{
+      color:rgb(14, 73, 129);
+      
+    }
+    50%{
+  color: green;
+    }
+    75%{
+      color: royalblue;
+    }
+    100%{
+  color: teal;
+    }
+  }
+  #firstR{
+    border: 10px solid rgb(72, 255, 0);
+    font-size: 100px;
+    border-radius: 10%;
+    animation: animateLetterR 5s infinite;
+    animation-timing-function: linear;
+  }
+  .img-fluid{
+    margin-bottom: 5px;
+    border-radius: 10%;
+  }
+  
+  @keyframes animateLetterR{
+   
+    0%{
+    
+      font-family: 'Courier New', Courier, monospace;
+  
+    }
+  
+    25%{
+     font-family: 'Times New Roman', Times, serif;
+      
+    }
+    50%{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    75%{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    100%{
+  font-family: serif;
+    }
+  }
+  #progress{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+  
+  #familiar{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  
+  .fa-youtube{
+    color: red;
+  }
+  .fa-envelope{
+    color: aqua;
+  }
+  
+  .fa-github {
+    color: white;
+  }
+  
+  #resume:hover::after{
+    content: ": Please email me for Resume";
+  }
+  
